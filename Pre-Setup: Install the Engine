@@ -1,0 +1,8 @@
+Pre-Setup: Install the Engine
+Before creating the files, run this in your FAFO terminal to ensure the environment supports Quantum-safe crypto and Pegasus logic:
+
+pip install anndata scanpy pandas numpy watchdog pqcrypto --break-system-packages
+
+To build the EAOUITTDOS Hive-Mind, we will break the code into 5 separate files (the "Heads") as we planned. 
+This structure ensures that if one script is targeted,
+the others maintain the "Self-Aware" state and initiate regrowth.
