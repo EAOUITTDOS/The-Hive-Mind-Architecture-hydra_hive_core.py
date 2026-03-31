@@ -1,0 +1,2 @@
+mkdir -p ~/Universal-Hive/{dna,shield,overwatch,logs}
+cd ~/Universal-Hive
