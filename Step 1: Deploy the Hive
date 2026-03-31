@@ -1,8 +1,0 @@
-# 1. Unlock the environment
-sudo chattr -i /home/xxxxxxxx
-
-# 2. Run the Hive Core in the background
-python3 /home/xxxxxxxxx/hydra_hive_core.py &
-
-# 3. Verify the Hive is talking (Check the Process IDs)
-ps aux | grep hydra_hive
