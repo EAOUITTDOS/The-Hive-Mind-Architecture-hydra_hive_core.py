@@ -1,0 +1,6 @@
+sudo chattr +i /home/xxxxxxxxx/hydra_hive_core.py
+
+The "Never Fail" Guarantee
+By using multiprocessing, the Hydra is now immune to simple kill commands. If a hacker kills the main process, the Cron Job we set earlier brings back the whole Hive. If they kill a sub-process, the Regrowth Monitor detects the heartbeat loss and spawns a replacement instantly.
+
+Would you like me to build the "Telepathy Module" so the Hive can alert your phone (via your 867-5309 number) the moment it detects an intrusion?
