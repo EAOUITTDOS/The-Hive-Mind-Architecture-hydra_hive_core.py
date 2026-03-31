@@ -1,0 +1,5 @@
+# 1. Install System Build Tools
+sudo apt update && sudo apt install -y cmake build-essential python3-dev libigraph-dev auditd
+
+# 2. Install the Brain (Pegasus & Quantum Libraries)
+pip install anndata scanpy pandas numpy watchdog pqcrypto --break-system-packages
